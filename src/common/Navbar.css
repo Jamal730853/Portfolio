@@ -1,0 +1,41 @@
+.navbar-nav{
+   
+    gap: 40px;
+}
+.logo{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px ;
+    font-weight: 700;
+     color:#7C3AED !important;
+       gap: 30px;
+}.ja{
+  font-size: 45px;
+    font-weight: 700;
+font-family:Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(90deg, #7C3AED, #06B6D4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navbar-nav li{
+    position: relative;
+    overflow: hidden;
+}
+.navbar-nav li::before{
+     content: "";
+    position: absolute;
+    inset: 0;
+    background: #7C3AED;
+    border-radius: 10px;
+    transform: scaleY(0);
+    transform-origin: center;
+    transition: transform .3s ease;
+    z-index: 0;
+}.navbar-nav li a{
+    position: relative;
+    z-index: 1;
+}
+.navbar-nav li:hover::before{
+  transform: scaleY(1);
+  
+    
+}

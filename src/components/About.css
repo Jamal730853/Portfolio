@@ -1,0 +1,30 @@
+.service-card{
+    background: rgba(17, 25, 40, 0.75);
+    border: 1px solid rgba(255,255,255,.08);
+    backdrop-filter: blur(14px);
+    border-radius: 22px;
+    padding: 35px;
+    transition: .4s;
+    height: 100%;
+}
+
+.service-card:hover{
+
+transform:translateY(-12px);
+
+border-color:#915EFF;
+
+box-shadow:0 15px 40px rgba(145,94,255,.25);
+
+}.about-title{
+    font-size: clamp(2.8rem,5vw,4.5rem);
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #5d054b;
+    margin-top: 10px;
+    
+}
+
+.about-title span{
+    color:#915EFF;
+}

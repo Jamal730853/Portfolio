@@ -1,0 +1,24 @@
+h3{
+     font-size: 40px;
+    font-weight: bold;
+
+    background: linear-gradient(180deg, #7C3AED, #06B6D4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h1{
+    font-size: 60px;
+}.foto{
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    margin-left: 90px;
+    
+}
+p{
+    color: gray;
+}.imagee{
+    display: flex;
+    justify-content: center;
+}
+
