@@ -42,8 +42,13 @@ function Navbar() {
 
        
       </ul>
-
-        <button className="btn btn-outline-success" type="file">Dounload CV</button>
+<a 
+  href="/CV/Fullstack_web_devloper_cv.pdf"
+  className="btn btn-outline-success"
+  download
+>
+  Download CV
+</a>
     
     </div>
   </div>

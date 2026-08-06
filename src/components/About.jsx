@@ -50,9 +50,12 @@ function About() {
               and creating digital experiences that users love.
             </p>
 
-            <button className="btn btn-primary mt-3 px-4 py-2">
+            <a href="/CV/Fullstack_web_devloper_cv.pdf"
+             download
+            
+            className="btn btn-primary mt-3 px-4 py-2">
               Download CV
-            </button>
+            </a>
 
           </div>
 
