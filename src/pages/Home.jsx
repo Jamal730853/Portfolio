@@ -6,10 +6,14 @@ import Skills from '../components/Skills'
 import Projects from '../components/Projects'
 function Home() {
   return (
-    <div>
-      <h1>Hello Vercel</h1>
+    <div id='home'>
+    <Hero/>
+    <About/>
+    <Projects />
+    <Skills />
+    <Contact />
     </div>
-  );
+  )
 }
 
-export default Home;
+export default Home
